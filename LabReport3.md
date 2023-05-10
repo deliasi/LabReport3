@@ -46,10 +46,34 @@ This command allows us to find the occurances of patterns in out text files.
          DERRICKS-MacBook-Air:media alenooshhambarchian$ 
 
 
-### Third Command Line Option (Grep -c)
+### Third Command Line Option (Grep -o)
+ 
+f
 
+        DERRICKS-MacBook-Air:media alenooshhambarchian$ grep -o "say"  Ginny_Kilgore.txt
+        say
+        say
+        DERRICKS-MacBook-Air:media alenooshhambarchian$ grep -o "to" Ginny_Kilgore.txt
+        to
+        to
+        to
+        to
+        to
+        to
+        to
+        to
+        to
+        to
+        to
+        to
+        to
+        to
+        to
+        to
+        to
+        DERRICKS-MacBook-Air:media alenooshhambarchian$ 
         
-
+### Fourth Command Line Option (Grep -o)
         
     
     
