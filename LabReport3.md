@@ -1,18 +1,18 @@
-# Cse 15L LAb Report 3
+# Cse 15L Lab Report 3
 
 ## Researching Commands - Grep 
 For my lab report, I focused on the grep command.
-A shortcut I found useful for finding different commmand line options for grep was using the
+A shortcut I found useful for finding different command line options for grep was using the
 
          man grep
          
 command.
 
-img
+<img src = "https://raw.githubusercontent.com/deliasi/LabReport3/main/Screen%20Shot%202023-05-09%20at%205.34.46%20PM.png">
 
 ### First Command Line Option (Grep -A/-B)
 This command allows us to display as many lines before or after our input matches. In this case,
-'wait' is within 'waiting', which still prints the ouput below.
+'wait' is within 'waiting', which still prints the output below.
 
 Using -A:
 
@@ -38,7 +38,7 @@ Using -A:
         DERRICKS-MacBook-Air:media alenooshhambarchian$ 
 
 ### Second Command Line Option (Grep -c)
-This command allows us to find the occurances of patterns in out text files. A number is printed out
+This command allows us to find the occurrences of patterns in our text files. A number is printed out
 when this command is run.
 
          DERRICKS-MacBook-Air:media alenooshhambarchian$ grep -c 'say' Farm_workers.txt
@@ -49,7 +49,7 @@ when this command is run.
 
 
 ### Third Command Line Option (Grep -o)
-This command prints the amount of matching parts to the input. Only the input is printed in the ouput
+This command prints the amount of matching parts to the input. Only the input is printed in the output
 and not words around. The input is outputted as many times as it shows up within the text.
 
         DERRICKS-MacBook-Air:media alenooshhambarchian$ grep -o "say"  Ginny_Kilgore.txt
@@ -76,7 +76,7 @@ and not words around. The input is outputted as many times as it shows up within
         DERRICKS-MacBook-Air:media alenooshhambarchian$ 
         
 ### Fourth Command Line Option (Grep -w)
-This command helps us find the amount of time a whole word is found within the text. For example,
+This command helps us find the amount of times a whole word is found within the text. For example,
 if we choose "say", and the text contains "saying", it will not print that line.
 
         DERRICKS-MacBook-Air:media alenooshhambarchian$ grep -w 'to' Pro_Bono_Services.txt
@@ -107,7 +107,7 @@ if we choose "say", and the text contains "saying", it will not print that line.
         DERRICKS-MacBook-Air:media alenooshhambarchian$
         
        
-As we see in our terminal, if a word withtin the text does not match our input, no ouput will be printed.
+As we see in our terminal, if no word withtin the text matches our input, no ouput will be printed.
     
     
  
